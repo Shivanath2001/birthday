@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* box-sizing: border-box; */
+}
+
+header{
+    min-width: 900px;
+    /* background:  rgb(147, 92, 26); */
+    background: url(bg.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* width: 100%; */
+    color: white;
+    position: relative;
+
+}
+/* .innerimg{
+    width: 100%;
+    height: 70%;
+    */
+/* } */
+.inimg{
+    width: 100%;
+    height: 10%;
+}
+
+
+.click{
+    width: 12%;
+    padding: 1rem 1rem;
+    position: absolute;
+    background-color: #A87536;
+    top: 85%;
+    left: 40%;
+    color: white;
+}
+/* .pop{
+    visibility: visible;
+    transform: translate(-50%,-50%) scale(1);
+} */
+.popup{
+    padding: 8px;
+    /* margin: 2p; */
+    /* background: #8f2626; */
+    border: 1px solid white;
+    border-radius: 4px;
+    width:20%;
+    /* height:auto; */
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    top: 85%;
+    left: 45%;
+    transform: translate(-50%,-50%) scale(0.01);
+    transition: all  0.9s;
+    text-align: center;
+    
+    /* transition: transform 0.5s,top 0.9s; */
+
+}
+h2{
+    display: flex;
+    padding-top: 2rem;
+    justify-content: center;
+    
+}
+.as{
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%,-50%) scale(0.7);
+    transition: transform 0.5s, 0.9s;
+}
+
+#img1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    
+}
+#img2{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    
+}
+#img3{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+   
+}
+#img4{
+    position: absolute;
+    top: 70%;
+    left: 90%;
+   
+}
+#img5{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+   
+}
+
+button{
+cursor: pointer;
+margin-top: 4px;
+}
